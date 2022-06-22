@@ -7,7 +7,7 @@ How to configure Pritunl Server - Docker Compose / Traefik / Ratting A+ SSL Labs
 Existem outras formas de fazer a automação dessa VPN, seja com git clone e um sed para substituir o email e subdomínio, tirando a necessidade de criar a policy e de usar um bucket, fiquem a vontade.<br><br>
 Porém dessa forma conseguimos exercitar mais coisas, como IAM Policy, Role, S3 e Route53.
 #
-<b>About the video:</b> <br>If you want to change the VPN port, change in <b>docker-compose.yml</b> and change in security group.
+<b>About this video:</b> <br>If you want to change the VPN port, change in <b>docker-compose.yml</b> and change in security group.
 <br>If you want more than one server on the VPN, change the port range in the security group and <b>docker-compose.yml.</b><br>
 There are other ways to automate this VPN, either with git clone and a sed to replace the email and subdomain, removing the need to create a policy and use a bucket.<br><br>
 But this way we can exercise more things like IAM Policy, Role, S3 and Route53.
