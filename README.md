@@ -8,8 +8,9 @@ Link da implementação: https://www.youtube.com/watch?v=JTKHFjijb9Y
 Existem outras formas de fazer a automação dessa VPN, seja com git clone e um sed para substituir o email e subdomínio, tirando a necessidade de criar a policy e de usar um bucket, fiquem a vontade.<br>
 Porém dessa forma conseguimos exercitar mais coisas, como IAM Policy, Role, S3 e Route53.
 <br>
-SSL Labs (Screenshot 1)<br>
+SSL Labs (Screenshot 1)
+<br>
 ![alt text](https://raw.githubusercontent.com/aldeiacloud/pritunl-docker-compose-traefik/main/images-ssl-labs/ssl-labs1.png)
-#
+<br>
 SSL Labs (Screenshot 2)<br>
 ![alt text](https://raw.githubusercontent.com/aldeiacloud/pritunl-docker-compose-traefik/main/images-ssl-labs/ssl-labs2.png)
