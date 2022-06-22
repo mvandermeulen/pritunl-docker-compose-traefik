@@ -1,7 +1,7 @@
 # pritunl-docker-compose-traefik
 How to configure Pritunl Server - Docker Compose / Traefik / Ratting A+ SSL Labs on AWS.<br>
 <b>Link: https://www.youtube.com/watch?v=JTKHFjijb9Y</b>
-###
+##
 <b>Sobre o vídeo:</b> <br>Caso queira trocar a porta da VPN, alterar no <b>docker-compose.yml</b> e alterar no security group. 
 <br>Caso queira mais de um server na VPN, alterar o range de portas no security group e no <b>docker-compose.yml</b>.<br>
 Existem outras formas de fazer a automação dessa VPN, seja com git clone e um sed para substituir o email e subdomínio, tirando a necessidade de criar a policy e de usar um bucket, fiquem a vontade.<br><br>
