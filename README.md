@@ -7,6 +7,6 @@ Existem outras formas de fazer a automação dessa VPN, seja com git clone e um 
 Porém dessa forma conseguimos exercitar mais coisas, como IAM Policy, Role, S3 e Route53.<br>
 <br>
 SSL Labs (Screenshot 1)<br>
-![alt text](https://raw.githubusercontent.com/aldeiacloud/pritunl-docker-compose-traefik/main/images-ssl-labs/ssl-labs1.png)<br>
+![alt text](https://raw.githubusercontent.com/aldeiacloud/pritunl-docker-compose-traefik/main/images-ssl-labs/ssl-labs1.png)<br><br>
 SSL Labs (Screenshot 2)<br>
 ![alt text](https://raw.githubusercontent.com/aldeiacloud/pritunl-docker-compose-traefik/main/images-ssl-labs/ssl-labs2.png)
