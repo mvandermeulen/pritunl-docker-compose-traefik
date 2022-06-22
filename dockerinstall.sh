@@ -22,7 +22,7 @@ sudo snap install aws-cli --classic
 aws s3 cp s3://aldeiacloud-pritunl-docker/docker-compose.yml /home/ubuntu/pritunl/
 aws s3 cp s3://aldeiacloud-pritunl-docker/traefik.yml /home/ubuntu/pritunl/
 sudo docker-compose up -d
-
+#
 #OBS:
 #1- Fazer apontamento do IP elástico a ser usado para o subdomínio da VPN. (Ex.: vpn.aldeiacloud.com.br)
 #2- Criar bucket para colocar os arquivos "docker-compose.yml" e "traefik.yml".
