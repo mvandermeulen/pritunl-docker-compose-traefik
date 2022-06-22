@@ -6,8 +6,8 @@ Link da implementação: https://www.youtube.com/watch?v=JTKHFjijb9Y
 <br>Caso queira mais de um server na VPN, alterar o range de portas no security group e no <b>docker-compose.yml</b>.<br>
 <br>
 Existem outras formas de fazer a automação dessa VPN, seja com git clone e um sed para substituir o email e subdomínio, tirando a necessidade de criar a policy e de usar um bucket, fiquem a vontade.
-Porém dessa forma conseguimos exercitar mais coisas, como IAM Policy, Role, S3 e Route53.<br>
-SSL Labs (Screenshot 1)<br>
+Porém dessa forma conseguimos exercitar mais coisas, como IAM Policy, Role, S3 e Route53.
+SSL Labs (Screenshot 1)
 ![alt text](https://raw.githubusercontent.com/aldeiacloud/pritunl-docker-compose-traefik/main/images-ssl-labs/ssl-labs1.png)
-SSL Labs (Screenshot 2)<br>
+SSL Labs (Screenshot 2)
 ![alt text](https://raw.githubusercontent.com/aldeiacloud/pritunl-docker-compose-traefik/main/images-ssl-labs/ssl-labs2.png)
