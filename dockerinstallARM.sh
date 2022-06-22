@@ -45,3 +45,8 @@ aws s3 cp s3://aldeiacloud-pritunl-docker/traefik.yml /home/ubuntu/pritunl/
 cd /home/ubuntu/pritunl/
 sudo docker-compose up -d
 #############################################################################################
+#OBS:
+#1- Fazer apontamento do IP elástico a ser usado para o subdomínio da VPN. (Ex.: vpn.aldeiacloud.com.br)
+#2- Criar bucket para colocar os arquivos "docker-compose.yml" e "traefik.yml".
+#3- Configurar uma role que tenha acesso ao bucket criado e aponta-los corretamente no codigo acima.
+#4- Ao subir, atachar rapidamente o ip elástico apontado no Route53, para o traefik gerar o SSL.
