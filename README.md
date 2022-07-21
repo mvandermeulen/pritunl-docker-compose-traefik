@@ -11,7 +11,7 @@ How to configure Pritunl Server - Docker Compose / Traefik / Ratting A+ SSL Labs
 - There are other ways to automate this VPN, either with git clone and a sed to replace the email and subdomain, removing the need to create a policy and use a bucket. But this way we can exercise more things like IAM Policy, Role, S3 and Route53.
 #
 <b>AVISO:</b> <br>Pessoal, algumas pessoas estão tendo problema na hora de criar o server, ao clicar no botão de criar o server não abre a caixa para cria-lo, isso ocorre porque as vezes lançam imagens recentes (latest - usada no tutorial) que contém esses problemas, para resolver coloque uma imagem anterior a latest, para verificar as imagens acesse: https://github.com/goofball222/pritunl/releases.<br>
-Altere a linha "image: goofball222/pritunl:latest" dentro do arquivo docker-compose  para uma tag com a versão específica, exemplo: "image: goofball222/pritunl:1.30.3226.71", e recrie o container.
+Altere a linha "<b>image: goofball222/pritunl:latest</b>" dentro do arquivo <b>docker-compose.yml</b> para uma tag com a versão específica, exemplo: "<b>image: goofball222/pritunl:1.30.3226.71</b>", e recrie o container.
 #
 SSL Labs (Screenshot 1)<br>
 ![alt text](https://raw.githubusercontent.com/aldeiacloud/pritunl-docker-compose-traefik/main/images-ssl-labs/ssl-labs1.png)<br><br>
